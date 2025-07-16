@@ -299,9 +299,9 @@ spiceprefix=X
 C {devices/lab_pin.sym} -490 -440 0 0 {name=p7 sig_type=std_logic lab=Vb}
 C {sky130_fd_pr/pfet_01v8_lvt.sym} -540 -220 0 0 {name=M1
 L=10
-W=50
-nf=1
-mult=1
+W=25
+nf=2
+mult=2
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -313,9 +313,9 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} -280 -220 0 1 {name=M2
 L=10
-W=50
-nf=1
-mult=1
+W=25
+nf=2
+mult=2
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
