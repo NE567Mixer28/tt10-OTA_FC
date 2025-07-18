@@ -117,7 +117,7 @@ value="
 
   set appendwrite
   
-  noise v(out_parax) VbiasR1 dec 10 0.5 1e3
+  noise v(out) VbiasR1 dec 10 0.5 1e3
   remzerovec
   write OTA_FoldedCascode_Noise1.raw
   setplot noise1

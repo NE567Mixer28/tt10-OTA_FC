@@ -246,7 +246,7 @@ N -820 -340 -560 -340 {
 lab=#net2}
 N -820 -340 -820 -230 {
 lab=#net2}
-C {devices/launcher.sym} 1000 -330 0 0 {name=h1
+C {devices/launcher.sym} 1000 -320 0 0 {name=h1
 descr="Annotate OP" 
 tclcommand="set show_hidden_texts 1; xschem annotate_op"
 }
