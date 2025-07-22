@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1753189014
+timestamp 1753192428
 << metal1 >>
 rect 286 16742 296 17154
 rect 564 17152 574 17154
@@ -165,8 +165,8 @@ rect 22634 0 22814 102
 rect 26498 0 26678 142
 rect 30096 62 30566 220
 rect 30362 0 30542 62
-use OFC  OFC_0 ~/tt10-OTA_FC1/mag
-timestamp 1753173333
+use OFC  OFC_0 ~/tt10-OTA_FC/mag
+timestamp 1753192428
 transform 1 0 2148 0 1 4600
 box 2996 206 22976 12566
 << labels >>

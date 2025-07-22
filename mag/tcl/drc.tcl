@@ -1,5 +1,5 @@
 set project [lindex $argv $argc-1]
-load $project.mag
+load tt_um_NE567Mixer28.mag
 select top cell
 drc euclidean on
 drc style drc(full)
