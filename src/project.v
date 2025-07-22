@@ -23,8 +23,8 @@ module tt_um_NE567Mixer28 (
 	    .VDD(VDPWR),
 	    .VSS(VGND),
 	    .OUT(ua[0]),
-	    .IN-(ua[1]),
-	    .IN+(ua[2])
+	    .INm(ua[1]),
+	    .INp(ua[2])
     );
 
     // ties for the output enables

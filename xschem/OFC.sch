@@ -36,9 +36,9 @@ lab=D1}
 N -520 -190 -520 -120 {
 lab=D1}
 N -260 -220 -210 -220 {
-lab=IN-}
+lab=INm}
 N -610 -220 -560 -220 {
-lab=IN+}
+lab=INp}
 N 110 -280 210 -280 {
 lab=OUT}
 N -520 -320 -520 -250 {
@@ -267,8 +267,8 @@ N -1020 -40 -1000 -40 {
 lab=VSS}
 C {devices/iopin.sym} -800 -480 0 0 {name=p1 lab=VDD}
 C {devices/iopin.sym} -800 -450 0 0 {name=p2 lab=VSS}
-C {devices/ipin.sym} -610 -220 0 0 {name=p4 lab=IN+}
-C {devices/ipin.sym} -210 -220 0 1 {name=p5 lab=IN-}
+C {devices/ipin.sym} -610 -220 0 0 {name=p4 lab=INp}
+C {devices/ipin.sym} -210 -220 0 1 {name=p5 lab=INm}
 C {devices/lab_wire.sym} -130 -610 0 0 {name=p3 sig_type=std_logic lab=VDD}
 C {devices/lab_wire.sym} -20 30 0 0 {name=p6 sig_type=std_logic lab=VSS}
 C {devices/lab_pin.sym} -320 -100 0 0 {name=p24 sig_type=std_logic lab=D1}
