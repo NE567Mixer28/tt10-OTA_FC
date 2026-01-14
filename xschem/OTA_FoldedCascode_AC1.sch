@@ -90,9 +90,8 @@ unity=1
 
 
 subdivx=8
-node="ph(out) 180-
-ph(out_parax) 180-"
-color="4 4 5 5"
+node="ph(out) 180-"
+color="4 4"
 dataset=0
 unitx=1
 logx=1
@@ -137,7 +136,7 @@ x2=0.02
 
 
 
-color=6
+color="6 4"
 node=in+
 
 y1=0.8998

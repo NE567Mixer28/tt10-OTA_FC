@@ -103,7 +103,7 @@ N -590 -330 -590 -280 {
 lab=out_parax}
 N -590 -280 -590 -270 {
 lab=out_parax}
-C {devices/simulator_commands_shown.sym} -2410 -370 0 0 {name=COMMANDS1
+C {devices/simulator_commands_shown.sym} -2400 -370 0 0 {name=COMMANDS1
 simulator=ngspice
 only_toplevel=false 
 value="
@@ -117,7 +117,7 @@ value="
 
   set appendwrite
   
-  noise v(out) VbiasR1 dec 10 0.5 1e3
+  noise v(out) VbiasR1 dec 10 0.05 100
   remzerovec
   write OTA_FoldedCascode_Noise1.raw
   setplot noise1
