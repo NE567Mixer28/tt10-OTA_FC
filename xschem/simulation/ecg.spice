@@ -1,6 +1,6 @@
 ** sch_path: /home/ttuser/tt10-OTA_FC/xschem/ecg.sch
-.subckt ecg VDD VDD GND GND VDD GND VDD GND VDD GND VDD GND VDD GND INp INm Odrl OUT
-*.PININFO VDD:B VDD:B GND:B GND:B VDD:B GND:B VDD:B GND:B VDD:B GND:B VDD:B GND:B VDD:B GND:B INp:I INm:I Odrl:O OUT:O
+.subckt ecg VDD GND INp INm Odrl OUT ref
+*.PININFO VDD:B GND:B INp:I INm:I Odrl:O OUT:O ref:I
 XR3 Vcm net3 GND sky130_fd_pr__res_high_po_0p35 L=0.4 mult=1 m=1
 XR15 Vcm net4 GND sky130_fd_pr__res_high_po_0p35 L=0.4 mult=1 m=1
 XR18 net3 net7 GND sky130_fd_pr__res_xhigh_po_0p35 L=10 mult=1 m=1
