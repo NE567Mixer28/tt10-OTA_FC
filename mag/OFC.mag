@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1753193037
+timestamp 1768575473
 << viali >>
 rect 15134 11772 15338 11840
 rect 17012 11764 17218 11830
@@ -633,27 +633,27 @@ rect 13944 3194 13954 3490
 rect 11534 3184 11998 3194
 rect 13454 3189 13954 3194
 use sky130_fd_pr__pfet_01v8_lvt_BFTKM6  XM1
-timestamp 1752660100
+timestamp 1768572465
 transform 0 1 7751 -1 0 6037
 box -2225 -2837 2225 2837
 use sky130_fd_pr__pfet_01v8_lvt_BFTKM6  XM2
-timestamp 1752660100
+timestamp 1768572465
 transform 0 1 15607 -1 0 6011
 box -2225 -2837 2225 2837
 use sky130_fd_pr__nfet_01v8_lvt_AHMAL2  XM3
-timestamp 1752660100
+timestamp 1768572465
 transform 0 1 17848 -1 0 2372
 box -296 -610 296 610
 use sky130_fd_pr__nfet_01v8_lvt_WVASGV  XM4
-timestamp 1752660100
+timestamp 1768572465
 transform 0 1 17860 -1 0 1422
 box -296 -490 296 490
 use sky130_fd_pr__nfet_01v8_lvt_WVASGV  XM5
-timestamp 1752660100
+timestamp 1768572465
 transform 0 1 13722 -1 0 1400
 box -296 -490 296 490
 use sky130_fd_pr__nfet_01v8_lvt_AHMAL2  XM6
-timestamp 1752660100
+timestamp 1768572465
 transform 0 1 13736 -1 0 2758
 box -296 -610 296 610
 use sky130_fd_pr__pfet_01v8_lvt_CYPNY8  XM7
@@ -661,11 +661,11 @@ timestamp 1752660100
 transform 0 1 15237 -1 0 10275
 box -419 -519 419 519
 use sky130_fd_pr__pfet_01v8_lvt_2L7S3R  XM8
-timestamp 1752660100
+timestamp 1768572465
 transform 0 1 17111 -1 0 11437
 box -419 -619 419 619
 use sky130_fd_pr__pfet_01v8_lvt_2L7S3R  XM9
-timestamp 1752660100
+timestamp 1768572465
 transform 0 1 15243 -1 0 11445
 box -419 -619 419 619
 use sky130_fd_pr__pfet_01v8_lvt_CYPNY8  XM10
@@ -673,9 +673,9 @@ timestamp 1752660100
 transform 0 1 17109 -1 0 10271
 box -419 -519 419 519
 use sky130_fd_pr__pfet_01v8_lvt_6VJTDW  XM11
-timestamp 1752660100
+timestamp 1768572465
 transform 0 1 7282 -1 0 10644
-box -936 -2332 946 2342
+box -941 -2337 941 2337
 use sky130_fd_pr__res_xhigh_po_0p35_7RFGLT  XR1
 timestamp 1752660100
 transform -1 0 21119 0 -1 2118

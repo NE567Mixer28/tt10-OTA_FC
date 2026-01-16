@@ -179,12 +179,22 @@ N 110 -280 110 -220 {
 lab=OUT}
 N -110 -120 -30 -120 {
 lab=D1}
-N 30 -120 50 -120 {
+N 340 -180 340 -150 {
 lab=OUT}
-N 50 -270 50 -120 {
+N 340 -240 340 -180 {
 lab=OUT}
-N 50 -270 110 -270 {
+N 160 -240 340 -240 {
 lab=OUT}
+N 160 -270 160 -240 {
+lab=OUT}
+N 340 -90 340 -70 {
+lab=D1}
+N -30 -120 230 -120 {
+lab=D1}
+N 230 -120 230 -60 {
+lab=D1}
+N 340 -70 340 -60 {}
+N 230 -60 340 -60 {}
 C {devices/iopin.sym} -840 -440 0 0 {name=p1 lab=VDD}
 C {devices/iopin.sym} -840 -410 0 0 {name=p2 lab=GND}
 C {devices/opin.sym} 180 -270 0 0 {name=p7 lab=OUT}
@@ -202,7 +212,7 @@ C {devices/lab_pin.sym} -410 -300 0 0 {name=p29 sig_type=std_logic lab=S
 C {sky130_fd_pr/pfet_01v8_lvt.sym} -430 -440 0 0 {name=M11
 L=1
 W=60
-nf=1
+nf=6
 mult=2
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -308,7 +318,7 @@ C {devices/lab_pin.sym} -160 -460 0 0 {name=p32 sig_type=std_logic lab=D9
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} -90 -370 0 1 {name=M7
 L=2.23
-W=5
+W=4
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -322,7 +332,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} -90 -520 0 1 {name=M9
 L=2.23
-W=3.8
+W=3.85
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -336,7 +346,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 90 -520 0 0 {name=M8
 L=2.23
-W=3.8
+W=3.85
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -350,7 +360,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8_lvt.sym} 90 -370 0 0 {name=M10
 L=2.23
-W=5
+W=4
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -362,7 +372,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8_lvt
 spiceprefix=X
 }
-C {sky130_fd_pr/cap_mim_m3_1.sym} 0 -120 1 0 {name=C1 model=cap_mim_m3_1 W=50 L=20 MF=1 spiceprefix=X}
+C {sky130_fd_pr/cap_mim_m3_1.sym} 340 -120 0 0 {name=C1 model=cap_mim_m3_1 W=22.4 L=22.4 MF=2 spiceprefix=X}
 C {devices/iopin.sym} -10 -350 0 1 {name=p5 lab=Vc2}
 C {devices/iopin.sym} 10 -210 0 1 {name=p6 lab=Vc1}
 C {devices/iopin.sym} 0 -90 0 1 {name=p8 lab=Vc}
