@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1768575473
+timestamp 1770379997
 << viali >>
 rect 15134 11772 15338 11840
 rect 17012 11764 17218 11830
@@ -685,11 +685,11 @@ timestamp 1752660100
 transform 0 1 11116 -1 0 11645
 box -201 -1082 201 1082
 use sky130_fd_pr__res_xhigh_po_0p35_Z767S8  XR3
-timestamp 1752660100
+timestamp 1770379997
 transform 0 1 11928 -1 0 10945
 box -201 -1902 201 1902
 use sky130_fd_pr__res_xhigh_po_0p35_DBPYMX  XR4
-timestamp 1752660100
+timestamp 1770379997
 transform -1 0 21771 0 -1 1925
 box -201 -889 201 889
 use sky130_fd_pr__res_xhigh_po_0p35_7RFGLT  XR5
@@ -697,7 +697,7 @@ timestamp 1752660100
 transform 1 0 22301 0 1 10878
 box -201 -1082 201 1082
 use sky130_fd_pr__res_xhigh_po_0p35_Z767S8  XR6
-timestamp 1752660100
+timestamp 1770379997
 transform 1 0 21797 0 1 8628
 box -201 -1902 201 1902
 use sky130_fd_pr__res_xhigh_po_0p35_7RFGLT  XR7
@@ -705,7 +705,7 @@ timestamp 1752660100
 transform 0 1 20436 -1 0 11485
 box -201 -1082 201 1082
 use sky130_fd_pr__res_xhigh_po_0p35_MAXMKG  XR8
-timestamp 1752660100
+timestamp 1770379997
 transform 0 1 20136 -1 0 10707
 box -201 -742 201 742
 << labels >>
