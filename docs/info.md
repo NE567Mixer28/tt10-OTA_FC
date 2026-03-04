@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project implements a single ended OTA (Operational Transconductance Amplifier) using a folded cascode architecture
 
 ## How to test
 
-Explain how to use your project
+To test the OTA, connect a differential input signal to the INp and INm analog pins (ua[2] and ua[1] respectively). Connect VDD to 1.8V and VSS to ground. Observe the differential output voltage at the OUT pin (ua[0]) using an oscilloscope or measurement instrument.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Oscilloscope
