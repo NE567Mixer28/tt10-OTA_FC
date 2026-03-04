@@ -1,5 +1,5 @@
-** sch_path: /home/ttuser/tt10-OTA_FC/xschem/PLsim.sch
-**.subckt PLsim
+** sch_path: /home/ttuser/tt10-OTA_FC/xschem/OTA_FoldedCascode1.sch
+**.subckt OTA_FoldedCascode1
 V1 VDD GND 1.8
 Vbias IN+ VSS 0.9
 VbiasR IN- VSS 0.9
@@ -27,7 +27,7 @@ XR9 GND Vc2 GND sky130_fd_pr__res_xhigh_po_0p35 L=1.4 mult=1 m=1
 
    op
    remzerovec
-   write PLsim.raw
+   write OTA_FoldedCascode1.raw
    set appendwrite
    dc Vbias 0.899 0.901 0.00001
    *dc Vbias 0.899 0.901 0.0001
@@ -36,8 +36,7 @@ XR9 GND Vc2 GND sky130_fd_pr__res_xhigh_po_0p35 L=1.4 mult=1 m=1
    plot v(out),v(outpl)
    plot deriv(v(out)),deriv(v(outpl))
 
-   write PLsim.raw
-   write PLsim.raw
+   write OTA_FoldedCascode1.raw
    wrdata PostLayout_DC_OFCB.txt v(out),v(outpl),deriv(v(out)),deriv(v(outpl))
 .endc
 .end

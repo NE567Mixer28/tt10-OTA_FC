@@ -158,7 +158,7 @@ value="
 
    op
    remzerovec 
-   write PLsim.raw
+   write OTA_FoldedCascode1.raw
    set appendwrite
    dc Vbias 0.899 0.901 0.00001 
    *dc Vbias 0.899 0.901 0.0001
@@ -167,8 +167,7 @@ value="
    plot v(out),v(outpl)
    plot deriv(v(out)),deriv(v(outpl))
    
-   write PLsim.raw
-   write PLsim.raw
+   write OTA_FoldedCascode1.raw
    wrdata PostLayout_DC_OFCB.txt v(out),v(outpl),deriv(v(out)),deriv(v(outpl))
 .endc
 .end
